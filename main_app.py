@@ -7,7 +7,7 @@ app = Flask(__name__)
 #This is API key for OpenAI
 openai.api_key = 'OPEN_AI_API'
 # This is page access token that you get from facebook developer console.
-PAGE_ACCESS_TOKEN = 'PAGE_TOKEN'
+PAGE_ACCESS_TOKEN = 'EAASjmIeqloMBO4kyWAuDZB3AyyZCjgSXB5bf3WXEgbxcaUfzMZB48QZAzBkcaGd83f0B3VmNrlF4GZCGdaMnTe2TTefVubUUOIC7NXPbc4beZBz0Gffq21h87seqmHZAvwt4nAZCJLHbkOIJjisAo4JBqR4HBPbNzZCYssIGC64goAXTjPz5sLQlwSbtw1F97SWrM'
 # This is API key for facebook messenger.
 API="https://graph.facebook.com/v16.0/me/messages?access_token="+PAGE_ACCESS_TOKEN
 
